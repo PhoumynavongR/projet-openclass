@@ -14,3 +14,19 @@ h4,h5
     {   
         font-weight: bold;
     }
+    footer
+    {
+        display: flex;
+        justify-content: space-between;
+
+    }
+.hebergements:nth-child(2)
+{
+    flex: 1;
+
+}
+.Assistance:nth-child(3)
+{
+    flex: 2;
+
+}
