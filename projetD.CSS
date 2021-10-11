@@ -17,16 +17,46 @@ h4,h5
     footer
     {
         display: flex;
-        justify-content: space-between;
-
     }
-.hebergements:nth-child(2)
-{
-    flex: 1;
-
+    .popu .héber .Acti
+    {
+        width: 250px;
+        height: 200px;
+    }
+    nav.menu {
+        margin-left: auto;
+    }
+img{
+    width: 225px;
+    height: 150px;
+    border-radius: 10px;
 }
-.Assistance:nth-child(3)
+.cadre
 {
-    flex: 2;
-
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-left: 50px;
+    float: auto;
+}
+.hebergements
+{
+    margin-left: 40px;
+      padding-top: 25px;
+}
+.heber
+{
+    display: flex;flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.popu
+{
+    display: flex;flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.popul{
+    margin-left: 40px;
+    padding-top: 25px;
 }
